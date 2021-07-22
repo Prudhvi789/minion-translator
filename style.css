@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputArea{
+    margin: 0px;
+    width: 60%;
+    height: 6rem;
+    font-size: xx-large;
+}
+
+.outputArea{
+    border: 1px solid black;
+    width: 60%;
+    height: 6rem;
+    background: whitesmoke;
+    font-size: xx-large;
+}
+
+body{
+    background: #574D68;
+}
+
+button{
+    margin: 10px;
+    font-size: larger;
+    padding: 10px;
+    background: linear-gradient(to right,#6dfff2,#00b8ff);
+    border: transparent;
+    border-radius: 10px;
+}
+
+h1{
+    background: #ffeb00;
+    margin-top: 0;
+    padding: 1rem;
+    text-align: center;
+    font-family: cursive;
+}
